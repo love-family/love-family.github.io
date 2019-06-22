@@ -1,0 +1,8 @@
+<mat-drawer-container [hasBackdrop]="true" class="home">
+  <mat-drawer #drawer position="end" mode="push">
+    <tex-user></tex-user>
+  </mat-drawer>
+  <mat-drawer-content>
+    <button mat-button (click)="drawer.toggle()">我的信息</button>
+  </mat-drawer-content>
+</mat-drawer-container>
